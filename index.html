@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Budget</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel ="icon" type="image/png" href="image/favicon-cash.png">
+     
+    </head>
+    <body>
+        <h1>Expense Manager</h1>
+        <h2>Add a new item:</h2>
+        <div id="form-box">
+            <form>
+              <div>
+                <span>Type:</span> 
+                  <select name="type" id="exptyp">
+                    <option value="salary">Salary</option>
+                      <option value="rent">Rent</option>
+                      <option value="food">Food</option>
+                      <option value="other">Other</option>
+                  </select>
+              </div>
+              <div>
+                <span>Amount:</span> <input id="amoun" type="text" name="Amount" placeholder="Amount">
+              </div>
+              <div>
+                <span>Income/Expenditure:</span> 
+                  <select name="type" id="typ">
+                      <option value="Income">Income</option>
+                      <option value="Expenditure">Expenditure</option>
+                  </select>
+              </div>
+              
+            </form>
+            </div>
+            <button id="button">Add a new expense</button>
+            
+            <table class="tab">
+                <tr> 
+                    <th>Income</th>
+                    <th>Expenditure</th>
+                    <th>Balance</th>
+                </tr>
+                <tr>
+                  <td class="inco"></td>
+                  <td class="expen"></td>
+                  <td class="bala"></td>
+                </tr>
+                
+            </table>
+            
+            
+    </body>
+    <script src="expense.js"></script>
+</html>

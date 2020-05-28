@@ -1,0 +1,99 @@
+h1, h2{
+    color: blue;
+    text-align: center;
+}
+th,td{
+    text-align: center;
+}
+h1{
+    font-size: 2.5em;
+    margin-top: 20px;
+    color: blue;
+}
+
+h2{
+    margin: 20px 0px;
+    font-weight: 100;
+    color: blue;
+}
+
+body{
+    background-image: url(image/background_expense\ \(1\).png) ;
+    background-size: cover;
+    
+}
+table{
+  text-align: left;
+  width: 640px;
+  margin: 30px auto;
+  border-radius: 3px;
+  background-color: #fff;
+}
+#form-box{
+    width: 650px;
+    margin: 30px auto;
+    padding-left: 15px;
+}
+form{
+    color:blue;
+    margin: auto;
+}
+select, input{
+    margin-bottom: 25px;
+    color: $dark-gray;
+    padding: 10px;
+    width: 200px;
+    border-radius: 3px;
+    border: 0;
+}
+div{
+    display: inline-block;
+    margin-right: 10px;
+}
+span{
+    font-size: 1.3em;
+    font-weight: 100;
+    display: inline-block;
+    width: 100px;
+}
+
+#type{
+    width: 50px;
+}
+ 
+  
+#date{
+    width: 141px;
+}
+ 
+  
+#amount{
+    width: 100px;
+}
+ 
+    
+#if-empty{
+    text-align: center;
+}
+  
+.center{
+    margin: auto;
+    text-align: center;
+}
+#button{
+    width:60px'
+    height:20px;
+}
+ 
+ 
+   
+
+ 
+  
+
+
+
+
+  
+
+ 
